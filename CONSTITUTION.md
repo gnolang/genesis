@@ -259,3 +259,9 @@ The passing of Software Update Proposals shall require the passage of law.
 >---
 
 TBD
+
+## TODOs
+
+- [ ] GovDAO requirements (not specifically for v1 implementation, but generally for any implementation)  
+- [ ] Airdrop distribution?
+- [ ] ...
