@@ -48,7 +48,7 @@ Amendments are permitted to innovate and adapt this Constitution, but they must 
 
 > TODO: Add mission and objectives
 
-The mission of go.land is...
+The mission of gno.land is...
 
 The objectives of gno.land are:
 
