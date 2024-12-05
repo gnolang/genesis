@@ -46,7 +46,7 @@ Amendments are permitted to innovate and adapt this Constitution, but they must 
 
 ### Section 3: General Mission and Objectives
 
-> TODO: Add mission and Objectives
+> TODO: Add mission and objectives
 
 The mission of go.land is...
 
