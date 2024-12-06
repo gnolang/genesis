@@ -3,7 +3,7 @@
 
 >---
 >**DOCUMENT NOTES**
->- This is a v0 workding document. It is very early and rough around the edges. The goal here is to introduce an early working prototype that can live in [gnolang/genesis](https://github.com/gnolang/genesis) as a v0 document.
+>- This is a v0 working document. It is very early and rough around the edges. The goal here is to introduce an early working prototype that can live in [gnolang/genesis](https://github.com/gnolang/genesis) as a v0 document.
 >- This prototype takes heavy influence from the [ATOMONE CONSTITUTION](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md).
 >- Public discussions on this topic can be found int the github issue [gno.land Constitution #3080](https://github.com/gnolang/gno/issues/3080)
 > ### Goals
@@ -40,7 +40,7 @@ Amendments are permitted to innovate and adapt this Constitution, but they must 
 
 > TODO: address TBD SECTION REFERENCE
 
-### Section 2: Sovereignty of gno.land
+### Section 2: Sovereignity of gno.land
 
 > TODO: TBD
 
@@ -48,18 +48,27 @@ Amendments are permitted to innovate and adapt this Constitution, but they must 
 
 > TODO: Add mission and objectives
 
-The mission of gno.land is...
+The mission of gno.land is to establish a platform focused on transparent governance, user agency and authentic content.
 
 The objectives of gno.land are:
 
-- TBD
-- TBD
+- Develop a governance model based on contributions
+- Encourage forking as a tool for decentralization and innovation
+- Reward authentic content and content moderation
+- Build spam and manipulation resilience
 
 ### Section 4: Rights, Liberties and Obligations in gno.land
 
 > TODO: Need to outline the rights of citizens (gnomes). This should outline the citizens rights, how one might become a citizen, and the obligations one has as a citizen. 
 
-TBD
+Citizen rights
+- The freedom to fork and innovate
+- The freedom to participate in transparent governance
+- The right to access the decentralized, censorship resistant platform
+
+Citizen obligations
+- To contribute to the community development and moderation
+- To uphold transparency and integrity
 
 ## Article 2: Governance
 
@@ -70,7 +79,23 @@ TBD
 >- This should cover the unique characteristics gno.land such as how Proof of Contribution, Validators, and DAOs work related to this.
 >---
 
-TBD
+The gno.land chain is the foundational infrastructure enabling decentralized applications and transparent governance. It establishes the framework for Proof of Contribution, validator selection, and DAOs. This section defines the unique characteristics of the gno.land chain and its core principles:  
+
+Proof of Contribution
+
+- Governance is driven by meaningful contributions rather than financial influence.
+- Contributions include creating content, moderating platforms, developing software, and maintaining the chain's security. (TO BE CONFIRMED)
+
+Validator Selection
+
+- Validators are chosen based on technical capability and alignment with gno.land’s vision, not purely on capital stake.
+- Validators must uphold the principles of decentralization, transparency, and security.
+
+DAOs and Sub-DAOs
+
+- The chain supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations.
+- Each DAO operates under the principles of transparency and collective decision-making.
+
 
 ### Section 2: Laws and Amendments
 
