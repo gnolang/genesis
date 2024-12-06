@@ -36,11 +36,9 @@ This Constitution of gno.land, hereinafter “Constitution”, hereby establishe
 
 All subsequent governance proposals shall align with the provisions of this Constitution, and proponents of each proposal, along with all active governance voters, are required to ensure consistency between such proposals and this Constitution, and cannot violate any explicit restriction.
 
-Amendments are permitted to innovate and adapt this Constitution, but they must still respect and adhere to the fundamental principles upon which this Constitution is founded, and are subject to specific procedures as described in Article XX, Section XX.
+Amendments are permitted to innovate and adapt this Constitution, but they must still respect and adhere to the fundamental principles upon which this Constitution is founded, and are subject to specific procedures as described in Governance Article 2.
 
-> TODO: address TBD SECTION REFERENCE
-
-### Section 2: Sovereignity of gno.land
+### Section 2: Sovereignty of gno.land
 
 > TODO: TBD
 
