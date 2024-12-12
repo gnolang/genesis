@@ -50,19 +50,30 @@ The objectives of gno.land are:
 - Reward authentic content and content moderation
 - Build spam and manipulation resilience
 
-## Article I: The GovDAO
+## Article 1: The GovDAO
 
 >TODO: Defines the GovDAO as the overarching governance body responsible for setting and upholding shared principles, ensuring transparency, and guiding the vision of the community.
 
-## Article II: Sub-DAOs
+## Article 2: Sub-DAOs
 
 > TODO: Allows for the creation and recognition of specialized sub-DAOs that operate within the GovDAO’s framework, each managing its own domain while remaining accountable to the GovDAO’s foundational principles.
 
-## Article III: Citizen Rights and Responsibilities
+## Article 3: Citizen Rights and Responsibilities
 
 > TODO: Affirms that each recognized citizen holds equal rights to participation, proposal, and vote, while maintaining responsibilities to uphold the constitution, act ethically, and foster a collaborative, merit-based environment.
 
-## Article IV: Governance
+### Citizen rights
+
+- The freedom to fork and innovate
+- The freedom to participate in transparent governance
+- The right to access the decentralized, censorship resistant platform
+
+### Citizen obligations
+
+- To contribute to the community development and moderation
+- To uphold transparency and integrity
+
+## Article 4: Governance
 
 > TODO: Establishes clear, minimal procedures for proposing initiatives, reaching consensus, and executing decisions, ensuring that all actions are transparent, auditable, and in alignment with the GovDAO’s mission.
 
