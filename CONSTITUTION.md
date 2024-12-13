@@ -84,6 +84,8 @@ The objectives of gno.land are:
 >- Outline relationship in GovDAOs (worksDAO, GovDAO, OversightDAO, ConstitutionDAO, etc)
 >---
 
+Article 4 defines the governance framework for gno.land, focusing on transparent decision-making, accountability, and alignment with the platform’s mission. It establishes clear procedures and thresholds to ensure equitable, decentralized, and collaborative participation in shaping the community’s future.
+
 ### Section 1: Procedures
 
 The working language of gno.lang Governance is International English.
@@ -131,22 +133,39 @@ Laws must be named plaintext files or folders of plaintext files, or folders of 
 >- This should cover the unique characteristics gno.land such as how Proof of Contribution, Validators, and DAOs work related to this.
 >---
 
-The gno.land chain is the foundational infrastructure enabling decentralized applications and transparent governance. It establishes the framework for Proof of Contribution, validator selection, and DAOs. This section defines the unique characteristics of the gno.land chain and its core principles:  
+The gno.land chain is the foundational infrastructure enabling transparent governance. It establishes the framework for Proof of Contribution, validator selection, and DAO governance. This section defines the unique characteristics of the gno.land chain and its core principles:  
 
 #### Proof of Contribution
 
-- Governance is driven by meaningful contributions rather than financial influence.
-- Contributions include creating content, moderating platforms, developing software, and maintaining the chain's security. (TO BE CONFIRMED)
+Proof of Contribution is the criterion by which gno.land community members are selected for GovDAO. It is driven by meaningful contributions rather than financial influence. Contributions include creating content, moderating platforms, developing software, and maintaining the chain's security.
+
+Some contributions are more valuable than others, and it is ultimately upon GovDAO to determine the value of each contribution and whether the contributor should be invited into GovDAO.
 
 #### Validator Selection
 
-- Validators are chosen based on technical capability and alignment with gno.land’s vision, not purely on capital stake.
-- Validators must uphold the principles of decentralization, transparency, and security.
+gno.land operates a limited, permissioned validator set. Candidates require a GovDAO vote before becoming a validator.
 
-#### GovDAO and Sub-DAOs
+Validators are chosen based on technical capability and alignment with gno.land’s vision, not purely on capital stake. Validators must uphold the principles of decentralization, transparency, and security.
 
-- The chain supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations.
-- Each DAO operates under the principles of transparency and collective decision-making.
+Validator's capital stake is not related to their voting power. Instead, their voting power is determined solely by the level of their gno.land contributions, as determined by Proof of Contribution.
+
+#### GovDAO
+
+gno.land supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations. Each DAO operates under the principles of transparency and collective decision-making.
+
+GovDAO has multiple membership tiers, each with it's own voting power. A GovDAO member's tier is determined by Proof of Contribution. Each tier has a desired percentage of the user base, and in the absence of manual votes, the gno.land chain itself will automatically promote and demote members to maintain the balance.
+
+Each GovDAO member is expected to take active part in governance, or risk being relegated to the lowest tier or removed from the GovDAO.
+
+GovDAO membership is public information. All GovDAO members will have to have their identity verified. TODO: DOES THE BOTTOM TIER ALSO NEED KYC, OR DO WE RESERVE IT FOR TIER2 AND BEYOND?
+
+All GovDAO proposals and individual votes are stored on-chain, as publicly accessible information.
+
+For a contributor to become a GovDAO member, an existing GovDAO member has to open an on-chain proposal with supporting arguments; if the vote is successful, the contributor is added to the GovDAO roster.
+
+#### DAOs and Sub-DAOs
+
+!! TBD !!
 
 ### Section 4: Updates to gno.land
 
