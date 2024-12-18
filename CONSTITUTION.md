@@ -40,7 +40,7 @@ GovDAO membership is public information. All GovDAO members will have to have th
 
 Constraints to the powers of the GovDAO must be explicitly defined in Article 3: Citizen Rights, Responsibilities, and GNOTDAO or through the constitutional amendment process outlined in Article 5: Amendments.
 
-GovDAO has the power to create and dissolve Sub-DAOs, but the creation process of any Sub-DAO must adhere to the rules outlines Article 2: DAOs and Sub-DAOs.
+GovDAO has the power to create and dissolve Sub-DAOs. The creation process of any Sub-DAO must adhere to the rules outlines Article 2: DAOs and Sub-DAOs.
 
 ## Article 2: DAOs and Sub-DAOs
 
