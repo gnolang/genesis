@@ -5,60 +5,81 @@
 >**DOCUMENT NOTES**
 >
 >- This is a v0 working document. It is very early and rough around the edges. The goal here is to introduce an early working prototype that can live in [gnolang/genesis](https://github.com/gnolang/genesis) as a v0 document.
->- This prototype takes heavy influence from the [ATOMONE CONSTITUTION](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md).
 >- Public discussions on this topic can be found int the github issue [gno.land Constitution #3080](https://github.com/gnolang/gno/issues/3080)
->
-> **GOALS**
->
->- citizens, gnomes, should feel protected by this constitution
->- Constitution is about protecting long-term value of the chain
->- Quality over quantity
->- We are creating a GovDAO to protect the chain and keep it running for the very long term. Building a team anyone can trust and rely on.
->- Ensure that the skeleton is in place and placeholders are clear
->- Its ok to remove things as needed for v1.
 >
 >---
 
 ## Preamble
 
-We, the people of gno.land, in order to create a more transparent, innovative, and decentralized world, do ordain and establish this Constitution for gno.land.
+We, the people, in order to create a more transparent, innovative, and decentralized world, do ordain and establish this Constitution for gno.land.
 
-### Section 1: Declaration of Intent
-
->TODO: Outline the intent of this, we should be able to utilize prior work from those who contributed to Why Gno and other blog posts.
-
-The vision of gno.land is...
-
-### Section 2: Fundamental Principles
+### Section 1: Fundamental Principles
 
 This Constitution of gno.land, hereinafter “Constitution”, hereby establishes the foundations of the rights, responsibilities, amd governance structure of those involved with of gno.land.
 
 All subsequent governance proposals shall align with the provisions of this Constitution, and proponents of each proposal, along with all active governance voters, are required to ensure consistency between such proposals and this Constitution, and cannot violate any explicit restriction.
 
-Amendments are permitted to innovate and adapt this Constitution, but they must still respect and adhere to the fundamental principles of this Constitution and are subject to specific procedures as described in Article 5: Amendments.
+Amendments are permitted to innovate and adapt this Constitution, but they must respect and adhere to the fundamental principles of this Constitution and are subject to specific procedures as described in Article 5: Amendments.
 
-### Section 3: General Mission and Objectives
-
-> TODO: Add mission and objectives
+### Section 2: General Mission and Objectives
 
 The mission of gno.land is to establish a platform focused on transparent governance, user agency and authentic content.
 
 The objectives of gno.land are:
 
-- Develop a governance model based on contributions
-- Encourage forking as a tool for decentralization and innovation
-- Reward authentic content and content moderation
-- Build spam and manipulation resilience
+- Develop a governance model for contributors by contributors.
+- Encourage forking as a tool for decentralization and innovation.
+- Reward authentic content and content moderation through transparent self-governance.
+- Build sustainable censorship and manipulation resilience.
 
 ## Article 1: The GovDAO
 
->TODO: Defines the GovDAO as the overarching governance body responsible for setting and upholding shared principles, ensuring transparency, and guiding the vision of the community.
+The GovDAO exists to protect the long-term value of the chain. It is the governing body and the ultimate authority for decisions made about gno.land.
 
-## Article 2: Sub-DAOs
+GovDAO membership is public information. All GovDAO members will have to have their identity verified. All Members of the GovDAO must have known identities as defined in the charter, bylaws, and mandates of the GovDAO.
 
-> TODO: Allows for the creation and recognition of specialized sub-DAOs that operate within the GovDAO’s framework, each managing its own domain while remaining accountable to the GovDAO’s foundational principles.
+Constraints to the powers of the GovDAO must be explicitly defined in Article 3: Citizen Rights, Responsibilities, and GNOTDAO or through the constitutional amendment process outlined in Article 5: Amendments.
 
-## Article 3: Citizen Rights and Responsibilities
+GovDAO has the power to create and dissolve Sub-DAOs. The creation process of any Sub-DAO must adhere to the rules outlines Article 2: DAOs and Sub-DAOs.
+
+## Article 2: DAOs and Sub-DAOs
+
+gno.land supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations. Each DAO operates under the principles of transparency and collective decision-making.
+
+Every DAO, upon creation, must have a Charter (which is composed of Purpose and Description), an initial set of Council members (which may be empty) and may also have Bylaws and Mandates, The Purpose and Description must be plaintext files. The Bylaws and Mandates must be named plaintext files or folders of plaintext files, or folders of folders.
+
+A DAO’s Charter, Bylaws, and Mandates may be changed by a Simple Majority vote from any of the DAO’s ancestors, except from GovDAO which shall require a Supermajority vote.
+
+A DAO’s Bylaws, Mandates, and the Bylaws and Mandates of its ancestor DAOs, the relevant Laws, and this Constitution, altogether are called the Governing Documents of the DAO.
+
+A DAO has a Council composed of zero or more members, with no maximum number of members unless otherwise specified in its Governing Documents.
+
+The Council of a DAO may change the Bylaws of the DAO, and otherwise make Decisions on behalf of the DAO by passing Proposals.
+
+A DAO may establish any number of sub-DAOs through the DAO Council’s Simple Majority vote, with their own defined Charters and specific bylaws and mandates, as necessity may arise and in accordance with the parent DAO Charter and bylaws. Sub-DAOs are owned by and can be controlled by the parent DAO, and members are also subject to the ancestor DAOs’ bylaws and mandates.
+
+A Simple Majority in DAO governance is defined to be exactly “more than half”. A Supermajority in DAO governance is defined to be exactly "two thirds or more". This is distinct from a Supermajority in Hub Governance.
+
+By default, unless specified otherwise in its Governing Documents, the following rules shall apply for Council voting:
+
+- Each member shall have equal voting power (no member may occupy multiple seats).
+- A Council member may resign and thereby remove themselves from the Council.
+- The tally denominator is the number of voters minus ABSTAINs (no quorum requirement)
+- Proposals are open until they are decided by sufficient majority, or dismissed, or expired.
+- Proposals are immediately dismissed by a Simple Majority vote of NO.
+
+By default, unless specified otherwise in its Governing Documents, the following rules shall apply for Council membership election:
+
+- The Council may elect one or more new members, and/or remove one or more members, by Super Majority vote. (self mutating).
+- The DAO’s Ancestors may modify the Council membership with a Super Majority vote.
+
+Each DAO shall have an associated crypto address which can hold any number of tokens.
+
+DAOs may operate with logic on core shards, or, represented as a m-of-n multisig account on the AtomOne hub where the signers are each members of the DAO’s council, where m is more than ½ n and also m is 3 or more. In all cases financial transactions from the DAO’s treasury must follow the passage of governance proposals on the DAO.
+
+In the event that a DAO cannot resolve a dispute internally, it may appeal to its immediate parent DAO for arbitration. If either party remains dissatisfied, the decision may be further appealed recursively through each ancestor DAO. The GovDAO shall serve as the final arbiter, and its ruling shall be binding on all parties.
+
+## Article 3: Citizen Rights, Responsibilities, and GNOTDAO
 
 > TODO: Affirms that each recognized citizen holds equal rights to participation, proposal, and vote, while maintaining responsibilities to uphold the constitution, act ethically, and foster a collaborative, merit-based environment.
 
@@ -104,25 +125,13 @@ The minimum voting period for a proposal is 3 weeks. To ensure adequate represen
 
 ### Section 2: Laws
 
->---
->**TODO**
->
->- Largely carried over from AtomOne
->- Goal: explain that GovDAO should have things like super majority for decisions.
->- Goal: OK to request schism with 40% of vote. (maybe TBD)
->- Goal: chain upgrade
->- Goal: parameter tuning
->- Goal: List Cases and set of requirements. 
->
->---
-
 This Constitution allows the creation and enactment of laws as means to complement and enhance its content, restrictions, provisions and established processes.
 
-Laws shall be enacted to address specific governance, economic, and operational aspects, and must align with the principles and framework established by this Constitution. In cases where laws conflict with this Constitution, this Constitution shall always prevail. The gno.land Governance structure will include several Decentralized Autonomous Organizations (DAOs) and sub-DAOs. Each DAO may create its own bylaws to govern its operations, provided they do not conflict with this Constitution, overarching laws or any mandates issued by the gno.land Governance. Mandates issued by an ancestor of a DAO are binding and cannot be amended or repealed by those DAOs or their sub-DAOs and remain in effect unless modified or repealed. Any DAO bylaws that conflict with its Governing Documents shall be deemed invalid and abrogated.
+Laws shall be enacted to address specific governance, economic, and operational aspects, and must align with the principles and framework established by this Constitution. In cases where laws conflict with this Constitution, this Constitution shall always prevail. The gno.land Governance structure will include the GovDAO and its sub-DAOs. Each DAO may create its own bylaws to govern its operations, provided they do not conflict with this Constitution, overarching laws or any mandates issued by GovDAO. Mandates issued by an ancestor of a DAO are binding and cannot be amended or repealed by those DAOs or their sub-DAOs and remain in effect unless modified or repealed. Any DAO bylaws that conflict with its Governing Documents shall be deemed invalid and abrogated.
 
-Laws may be proposed by any Citizen of gno.land through the established governance process. The approval of new laws, amendment of existing laws require a Constitutional Majority vote. However, an endorsement from the Steering DAO shall lower the passing threshold to a Supermajority vote for all proposals except for Constitutional amendment proposals, which shall require a Constitutional Majority.
+Laws may be proposed by any member of the GovDAO through the established governance process. The approval of new laws or amendment of existing laws require a Supermajority Majority vote.
 
-Once a law is approved by the required majority, it is implemented according to the specified procedures. The implementation process includes updating this Constitution, communicating the changes to the community, and ensuring compliance with the new provisions.
+Once a law is approved by the required majority, it is implemented according to the specified procedures. The implementation process includes adding the law to the system of record, communicating the changes to the community, and ensuring compliance with the new provisions.
 
 Laws must be named plaintext files or folders of plaintext files, or folders of folders.
 
@@ -149,23 +158,9 @@ Validators are chosen based on technical capability and alignment with gno.land�
 
 Validator's capital stake is not related to their voting power. Instead, their voting power is determined solely by the level of their gno.land contributions, as determined by Proof of Contribution.
 
-#### GovDAO
+#### DAOs
 
-gno.land supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations. Each DAO operates under the principles of transparency and collective decision-making.
-
-GovDAO has multiple membership tiers, each with it's own voting power. A GovDAO member's tier is determined by Proof of Contribution. Each tier has a desired percentage of the user base, and in the absence of manual votes, the gno.land chain itself will automatically promote and demote members to maintain the balance.
-
-Each GovDAO member is expected to take active part in governance, or risk being relegated to the lowest tier or removed from the GovDAO.
-
-GovDAO membership is public information. All GovDAO members will have to have their identity verified. TODO: DOES THE BOTTOM TIER ALSO NEED KYC, OR DO WE RESERVE IT FOR TIER2 AND BEYOND?
-
-All GovDAO proposals and individual votes are stored on-chain, as publicly accessible information.
-
-For a contributor to become a GovDAO member, an existing GovDAO member has to open an on-chain proposal with supporting arguments; if the vote is successful, the contributor is added to the GovDAO roster.
-
-#### DAOs and Sub-DAOs
-
-!! TBD !!
+All DAOs proposals and individual votes are stored on-chain, as publicly accessible information.
 
 ### Section 4: Updates to gno.land
 
@@ -185,19 +180,15 @@ The passing of Software Update Proposals shall require the passage of law.
 
 ## Article 5: Amendments
 
-> TODO: Provides a simple mechanism for introducing, debating, and ratifying amendments to this constitution, ensuring it can evolve thoughtfully and remain relevant over time.
+This Constitution allows the creation and enactment of amendments to the constitution as means to complement and enhance its content, restrictions, provisions and established processes.
 
-## Defined Terms
+Amendments shall be enacted to address specific governance, economic, and operational aspects meant to modify the behavior of the Constitution.
 
->---
->**TODO**
->
->- Add any important defined terms as outlined in [ATOMONE CONSTITUTION](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md#defined-terms)
->- Defined terms should be added to remove ambiguity
->
->---
+In the case that the amendment ambiguously contradicts another part of the constitution, the GovDAO shall form a special purpose ArbitrationDAO that will reach a binding resolution to the contradiction.
 
-TBD
+Amendments may be proposed by any member of the GovDAO through the established governance process. The approval of new amendment requires a Constitutional Majority vote.
+
+Once the amendment is approved by the Constitutional Majority, it is implemented according to the specified procedures. The implementation process includes updating this Constitution, communicating the changes to the community, and ensuring compliance with the new provisions.
 
 ## TODOs
 
