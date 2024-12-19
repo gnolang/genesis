@@ -1,14 +1,5 @@
 # [DRAFT] gno.land Constitution
 
->---
->
->**DOCUMENT NOTES**
->
->- This is a v0 working document. It is very early and rough around the edges. The goal here is to introduce an early working prototype that can live in [gnolang/genesis](https://github.com/gnolang/genesis) as a v0 document.
->- Public discussions on this topic can be found int the github issue [gno.land Constitution #3080](https://github.com/gnolang/gno/issues/3080)
->
->---
-
 ## Preamble
 
 We, the people, in order to create a more transparent, innovative, and decentralized world, do ordain and establish this Constitution for gno.land.
@@ -34,7 +25,7 @@ The objectives of gno.land are:
 
 ## Article 1: The GovDAO
 
-The GovDAO exists to protect the long-term value of the chain. It is the governing body and the ultimate authority for decisions made about gno.land.
+The GovDAO exists to protect the long-term value of the chain by creating a secure, decentralized, and subversion-resistant blockchain governance model. It is the governing body and the ultimate authority for decisions made about gno.land.
 
 GovDAO membership is public information. All GovDAO members will have to have their identity verified. All Members of the GovDAO must have known identities as defined in the charter, bylaws, and mandates of the GovDAO.
 
@@ -81,7 +72,11 @@ In the event that a DAO cannot resolve a dispute internally, it may appeal to it
 
 ## Article 3: Citizen Rights, Responsibilities, and GNOTDAO
 
-> TODO: Affirms that each recognized citizen holds equal rights to participation, proposal, and vote, while maintaining responsibilities to uphold the constitution, act ethically, and foster a collaborative, merit-based environment.
+The Liberty and Property of all citizens of gno.land, hereinafter known as "gnomes", engaging in the gno.land is hereby guaranteed. Any restriction to the Liberty and Property of gnomes on gno.land shall be done only through the GovDAO and requires a Constitutional Majority to pass an amendment to the constitution and optionally a set of laws specifying its enforcement.
+
+Every gnome is entitled to participation rights from their engagement in gno.land, including rights derived from held GNOT tokens in line with the provisions of this Constitution.
+
+The only criteria for participation in gno.land is to hold $GNOT tokens. gno.land is a sovereign and participation is permissionless.
 
 ### Citizen rights
 
@@ -94,16 +89,15 @@ In the event that a DAO cannot resolve a dispute internally, it may appeal to it
 - To contribute to the community development and moderation
 - To uphold transparency and integrity
 
+### The GNOTDAO
+
+All GNOT holders are members of the GNOTDAO.
+
+The GovDAO must include GNOTDAO on any proposal that involves a change to GNOT inflation. A proposal for a change to inflation that has GovDAO supermajority approval may only pass if it also has a supermajority approval from GNOT holders.
+
+The GovDAO, at its discretion, may also use binding proposals engaging the GNOTDAO when internal governance structures reach an impasse. Such proposals to engage the GNOTDAO must be approved by the GovDAO with a supermajority approval.
+
 ## Article 4: Governance
-
-> TODO: Establishes clear, minimal procedures for proposing initiatives, reaching consensus, and executing decisions, ensuring that all actions are transparent, auditable, and in alignment with the GovDAO’s mission.
-
->---
->**TODO**
->- This is modified from AtomOne, but needs to be checked for accuracy.
->- There may be governance items currently missing.
->- Outline relationship in GovDAOs (worksDAO, GovDAO, OversightDAO, ConstitutionDAO, etc)
->---
 
 Article 4 defines the governance framework for gno.land, focusing on transparent decision-making, accountability, and alignment with the platform’s mission. It establishes clear procedures and thresholds to ensure equitable, decentralized, and collaborative participation in shaping the community’s future.
 
@@ -137,11 +131,6 @@ Laws must be named plaintext files or folders of plaintext files, or folders of 
 
 ### Section 3: The gno.land Chain
 
->---
->**NOTES**
->- This should cover the unique characteristics gno.land such as how Proof of Contribution, Validators, and DAOs work related to this.
->---
-
 The gno.land chain is the foundational infrastructure enabling transparent governance. It establishes the framework for Proof of Contribution, validator selection, and DAO governance. This section defines the unique characteristics of the gno.land chain and its core principles:  
 
 #### Proof of Contribution
@@ -164,12 +153,6 @@ All DAOs proposals and individual votes are stored on-chain, as publicly accessi
 
 ### Section 4: Updates to gno.land
 
->---
->**TODO**
->- largely [ported from ATOMONE](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md#section-6-special-purpose-daos)
->- Review for correctness and add gno.land specific rules.
->---
-
 All updates to gno.land must be proposed as distinct, independent components. Each component must be discussed and voted on separately to ensure thorough deliberation and transparency. Proposals shall not bundle different changes into a single submission. Each proposal must address a single, clearly defined update or change. The only exception is made to regular code maintenance and bug fixes, and critical security updates.
 
 Adequate time must be provided between the consideration of each proposal to allow for comprehensive review and community input. The minimum duration for discussion and voting on each proposal shall be two weeks.
@@ -189,9 +172,3 @@ In the case that the amendment ambiguously contradicts another part of the const
 Amendments may be proposed by any member of the GovDAO through the established governance process. The approval of new amendment requires a Constitutional Majority vote.
 
 Once the amendment is approved by the Constitutional Majority, it is implemented according to the specified procedures. The implementation process includes updating this Constitution, communicating the changes to the community, and ensuring compliance with the new provisions.
-
-## TODOs
-
-- [ ] GovDAO requirements (not specifically for v1 implementation, but generally for any implementation)  
-- [ ] Airdrop distribution?
-- [ ] ...
