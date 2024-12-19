@@ -6,9 +6,9 @@ We, the people, in order to create a more transparent, innovative, and decentral
 
 ### Section 1: Fundamental Principles
 
-This Constitution of gno.land, hereinafter “Constitution”, hereby establishes the foundations of the rights, responsibilities, amd governance structure of those involved with of gno.land.
+This Constitution of gno.land, hereinafter “Constitution”, hereby establishes the foundations of the rights, responsibilities, and governance structure of those involved with gno.land.
 
-All subsequent governance proposals shall align with the provisions of this Constitution, and proponents of each proposal, along with all active governance voters, are required to ensure consistency between such proposals and this Constitution, and cannot violate any explicit restriction.
+All subsequent governance proposals shall align with the provisions of this Constitution, and proponents of each proposal, along with all active governance voters, are required to ensure consistency between such proposals and this Constitution and cannot violate any explicit restriction.
 
 Amendments are permitted to innovate and adapt this Constitution, but they must respect and adhere to the fundamental principles of this Constitution and are subject to specific procedures as described in Article 5: Amendments.
 
@@ -35,7 +35,7 @@ GovDAO has the power to create and dissolve Sub-DAOs. The creation process of an
 
 ## Article 2: DAOs and Sub-DAOs
 
-gno.land supports GovDAO, the principal governing DAO, and any number of DAOs & sub-DAOs for governance and operations. Each DAO operates under the principles of transparency and collective decision-making.
+gno.land supports GovDAO, the principal governing DAO, and any number of DAOs and sub-DAOs for governance and operations. Each DAO operates under the principles of transparency and collective decision-making.
 
 Every DAO, upon creation, must have a Charter (which is composed of Purpose and Description), an initial set of Council members (which may be empty) and may also have Bylaws and Mandates, The Purpose and Description must be plaintext files. The Bylaws and Mandates must be named plaintext files or folders of plaintext files, or folders of folders.
 
@@ -49,7 +49,7 @@ The Council of a DAO may change the Bylaws of the DAO, and otherwise make Decisi
 
 A DAO may establish any number of sub-DAOs through the DAO Council’s Simple Majority vote, with their own defined Charters and specific bylaws and mandates, as necessity may arise and in accordance with the parent DAO Charter and bylaws. Sub-DAOs are owned by and can be controlled by the parent DAO, and members are also subject to the ancestor DAOs’ bylaws and mandates.
 
-A Simple Majority in DAO governance is defined to be exactly “more than half”. A Supermajority in DAO governance is defined to be exactly "two thirds or more". This is distinct from a Supermajority in Hub Governance.
+A Simple Majority in DAO governance is defined to be exactly “more than half.” A Supermajority in DAO governance is defined to be exactly "two-thirds or more." This is distinct from a Supermajority in Hub Governance.
 
 By default, unless specified otherwise in its Governing Documents, the following rules shall apply for Council voting:
 
@@ -61,7 +61,7 @@ By default, unless specified otherwise in its Governing Documents, the following
 
 By default, unless specified otherwise in its Governing Documents, the following rules shall apply for Council membership election:
 
-- The Council may elect one or more new members, and/or remove one or more members, by Super Majority vote. (self mutating).
+- The Council may elect one or more new members, and/or remove one or more members, by Super Majority vote. (self-mutating).
 - The DAO’s Ancestors may modify the Council membership with a Super Majority vote.
 
 Each DAO shall have an associated crypto address which can hold any number of tokens.
@@ -113,13 +113,13 @@ To prevent spam and to ensure the quality of proposals, proposals must have a su
 
 The quorum necessary for a proposal to be valid is 40%. The denominator shall be the number of bonded GNOT tokens.
 
-A Simple Majority in gno.land Governance is defined to be exactly “more than half”. No proposal is considered to have passed in gno.lad with a Simple Majority; a Supermajority or Constitutional Majority is required. A Supermajority in gno.land Governance is defined to be exactly "more than two thirds". This is distinct from a Supermajority in DAO council governance which is defined to be exactly “two thirds or more”. For clarity, 3 out of 4 votes is necessary for a Supermajority in gno.land Governance, but 2 out of 3 is sufficient for a Supermajority in DAO council voting. The Constitutional Majority threshold is defined to be exactly “more than 90%”. These definitions of majority cannot change even by a Constitutional Majority.
+A Simple Majority in gno.land Governance is defined to be exactly “more than half”. No proposal is considered to have passed in gno.land with a Simple Majority; a Supermajority or Constitutional Majority is required. A Supermajority in gno.land Governance is defined to be exactly "more than two thirds". This is distinct from a Supermajority in DAO council governance which is defined to be exactly “two thirds or more”. For clarity, 3 out of 4 votes is necessary for a Supermajority in gno.land Governance, but 2 out of 3 is sufficient for a Supermajority in DAO council voting. The Constitutional Majority threshold is defined to be exactly “more than 90%”. These definitions of majority cannot change even by a Constitutional Majority.
 
 The minimum voting period for a proposal is 3 weeks. To ensure adequate representation and participation, the governance process must extend the voting deadline to guarantee a minimum of 2 weeks of voting after the minimum quorum has been met.
 
 ### Section 2: Laws
 
-This Constitution allows the creation and enactment of laws as means to complement and enhance its content, restrictions, provisions and established processes.
+This Constitution allows the creation and enactment of laws as means to complement and enhance its content, restrictions, provisions, and established processes.
 
 Laws shall be enacted to address specific governance, economic, and operational aspects, and must align with the principles and framework established by this Constitution. In cases where laws conflict with this Constitution, this Constitution shall always prevail. The gno.land Governance structure will include the GovDAO and its sub-DAOs. Each DAO may create its own bylaws to govern its operations, provided they do not conflict with this Constitution, overarching laws or any mandates issued by GovDAO. Mandates issued by an ancestor of a DAO are binding and cannot be amended or repealed by those DAOs or their sub-DAOs and remain in effect unless modified or repealed. Any DAO bylaws that conflict with its Governing Documents shall be deemed invalid and abrogated.
 
@@ -153,7 +153,7 @@ All DAOs proposals and individual votes are stored on-chain, as publicly accessi
 
 ### Section 4: Updates to gno.land
 
-All updates to gno.land must be proposed as distinct, independent components. Each component must be discussed and voted on separately to ensure thorough deliberation and transparency. Proposals shall not bundle different changes into a single submission. Each proposal must address a single, clearly defined update or change. The only exception is made to regular code maintenance and bug fixes, and critical security updates.
+All updates to gno.land must be proposed as distinct, independent components. Each component must be discussed and voted on separately to ensure thorough deliberation and transparency. Proposals shall not bundle different changes into a single submission. Each proposal must address a single, clearly defined update or change. The only exception is changes made for regular code maintenance and bug fixes, and critical security updates.
 
 Adequate time must be provided between the consideration of each proposal to allow for comprehensive review and community input. The minimum duration for discussion and voting on each proposal shall be two weeks.
 
@@ -163,7 +163,7 @@ The passing of Software Update Proposals shall require the passage of law.
 
 ## Article 5: Amendments
 
-This Constitution allows the creation and enactment of amendments to the constitution as means to complement and enhance its content, restrictions, provisions and established processes.
+This Constitution allows the creation and enactment of amendments to the constitution as means to complement and enhance its content, restrictions, provisions, and established processes.
 
 Amendments shall be enacted to address specific governance, economic, and operational aspects meant to modify the behavior of the Constitution.
 
