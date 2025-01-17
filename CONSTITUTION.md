@@ -165,10 +165,10 @@ The passing of Software Update Proposals shall require the passage of law.
 
 This Constitution allows the creation and enactment of amendments to the constitution as means to complement and enhance its content, restrictions, provisions, and established processes.
 
-Amendments shall be enacted to address specific governance, economic, and operational aspects meant to modify the behavior of the Constitution.
+Amendments are meant to modify the text of the Constitution. A proposal will show the proposed modifications to the text of the constitution, including all proposed additions and removals to the text. The most recent version of the Constitution must be maintained for the public to see as well as the revision history and each change must include the corresponding proposal authorizing the change.
 
 In the case that the amendment ambiguously contradicts another part of the constitution, the GovDAO shall form a special purpose ArbitrationDAO that will reach a binding resolution to the contradiction.
 
-Amendments may be proposed by any member of the GovDAO through the established governance process. The approval of new amendment requires a Constitutional Majority vote.
+Amendments may be proposed by any member of the GovDAO through the established governance process. The approval of the new amendment requires a Constitutional Majority vote.
 
 Once the amendment is approved by the Constitutional Majority, it is implemented according to the specified procedures. The implementation process includes updating this Constitution, communicating the changes to the community, and ensuring compliance with the new provisions.
