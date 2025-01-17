@@ -31,7 +31,73 @@ GovDAO membership is public information. All GovDAO members will have to have th
 
 Constraints to the powers of the GovDAO must be explicitly defined in Article 3: Citizen Rights, Responsibilities, and GNOTDAO or through the constitutional amendment process outlined in Article 5: Amendments.
 
-GovDAO has the power to create and dissolve Sub-DAOs. The creation process of any Sub-DAO must adhere to the rules outlines Article 2: DAOs and Sub-DAOs.
+GovDAO has the power to create and dissolve Sub-DAOs. The creation process of any  Sub-DAO must adhere to the rules outlined in Article 2: DAOs and Sub-DAOs.
+
+### Section 1: Tier Structure
+
+The govDAO operates on a three tier membership system based on expertise, contributions, and value alignment to the long-term welfare of gno.land. The three tiers shall be known as T1, T2, and T3.
+
+- T1 is the highest tier with the most voting power and the highest standards for membership. Admission to T1 requires a super majority vote from members of T1.
+- T2 is the mid-level tier. Admission to T2 requires a simple majority vote from T1 and T2.
+- T3 is the introductory tier. Admission requires a permissionless invitation from a T1 or T2 member.
+
+#### Section 1.A: T1 Membership
+
+T1 shall target a minimum of 70 members after 7 years.
+
+If the minimum is not reached, 2 members SHOULD be added every quarter, but 1 new member is tolerated.
+
+If the minimum is not reached, AND 2 years has passed, AND no members are added for the quarter, AND there are Qualified Candidates, 1 Qualified Candidate may be elected by T2 and T3 of the GovDAO, but with T1 abstaining.
+
+If the minimum is not reached, AND 2 years has passed, AND no members are added for the quarter STILL, AND there are Qualified Candidates, AND GNOT-DAO exists and is approved by GovDAO, 1 Qualified Candidate may be elected from GNOTDao.
+
+T1 membership can only be withdrawn by supermajority vote WITH CAUSE.
+
+#### Section 1.B: T2 Membership
+
+The T2 membership maximum target is two times greater than the size of T1.
+
+If the size of T2 exceeds two times greater than the size of T1, no more members can be added to T2 until the size of T2 is less than that of T1.
+
+There is no minimum size of T2, but the desired minimum size is one-forth of the size of T1.
+
+T2 membership can be withdrawn by supermajority vote for any reason.
+
+#### Section 1.C: T3 Membership
+
+The size of T3 is limited only by the number of available invitations from T1 and T2.
+
+- T1 members get three invitation points.
+- T2 members get two invitation points.
+- T3 members get one invitation point.
+
+A T3 member must be invited by two members of the GovDAO, and each inviting member must delegate one invitation point for a T3 member to become active.
+
+T3 membership can be withdrawn by supermajority vote for any reason or the delegation/invitation can be withdrawn by both inviting members at any time.
+
+### Section 2: Voting Power
+
+Voting power in the GovDAO uses a weighted voting system with capped relative voting power for T2 and T3.
+
+- A T1 member shall have 3 votes.
+- A T2 member shall have a maximum of 2 votes.
+- A T3 member shall have a maximum 1 vote.
+
+Voting power shall be calculated based on the number of members in T1 multiplied by their number of votes. The voting power of T2 must not exceed two-thirds of the voting power of T1. The voting power of T3 must not exceed one-third of the voting power of T1. For example, if T1 has 100 members, and T2 has 200 members, and T2 has 1000 members, T2 shall have a capped voting power of 1 vote per member and T3 shall have a capped voting power of 0.1 votes per member.
+
+### Section 3: Compensation
+
+The GovDAO shall have the power to define a compensation plan for T1 and T2 members who are actively working on gno.land.
+
+### Section 4: Forking gno.land
+
+The GovDAO has the power to create a fork of gno.land with greater than one-third of the voting power.
+
+All deployed contracts have a right to exist on both forks.
+
+GovDAO members at all levels (T1, T2, and T3) must agree to be exclusive to one fork.
+
+A Supermajority vote from T1 determines which fork keeps "gno.land", OR, a simple majority of GovDAO keeps "gno.land", OR, both forks must change name, GIVEN THAT all names must be acceptable to NT,LLC if name includes "gno".
 
 ## Article 2: DAOs and Sub-DAOs
 
