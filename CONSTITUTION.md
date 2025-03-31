@@ -223,9 +223,7 @@ All updates to gno.land must be proposed as distinct, independent components. Ea
 
 Adequate time must be provided between the consideration of each proposal to allow for comprehensive review and community input. The minimum duration for discussion and voting on each proposal shall be two weeks.
 
-The passing of Software Update Proposals shall require the passage of law.
-
-[TODO: name stakeholders from governance structure] are responsible and may be held accountable for voting YES only on software update proposals that make correct changes toward the living constitution and laws (any substantial changes to the software must first be reflected in the constitution and laws). This responsibility exists independently of the Oversight DAOs’ regulatory function.
+The passing of Software Update Proposals shall require the passage of law by the GovDAO.
 
 ## Article 5: Amendments
 
