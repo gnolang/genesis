@@ -1,11 +1,11 @@
 # **Gno: A Deterministic Multi-Realm Computing Platform for Decentralized Applications**
 
-**TODO: Add Authors**
+**TODO: Add authors**
 
 Draft v0.1  
 December 2025
 
-The current spec is on github.com/gnolang/gno
+The current spec is on [github.com/gnolang/gno](https://github.com/gnolang/gno)
 
 ---
 
@@ -60,20 +60,20 @@ This whitepaper presents:
 
 # **2. System Model**
 
-// TODO:
-// - Formal Foundations
-// - 4 Core Definitions: Realm tuple, Persistent Object Memory graph, Deterministic Execution, Cross-Realm Call semantics
+// TODO:  
+// - Formal Foundations  
+// - 4 Core Definitions: Realm tuple, Persistent Object Memory graph, Deterministic Execution, Cross-Realm Call semantics 
 
 ---
 
 # **3. Comparison with Existing Platforms**
 
-// TODO:
-// - Why Gno Wins
-// - Bytecode problem + VM Comparison Table (EVM/WASM/MoveVM vs GnoVM) + Solidity vs Gno code examples, e.g., State management
+// TODO:  
+// - Why Gno Wins  
+// - Bytecode problem + VM Comparison Table (EVM/WASM/MoveVM vs GnoVM) + Solidity vs Gno code examples, e.g., State management  
 // - Add more
 
-## **The Bytecode Problem**
+## **3.1 The Bytecode Problem**
 
 Ethereum stores compiled bytecode:
 
@@ -95,7 +95,7 @@ func Transfer(to std.Address, amount int64) {
 
 Auditing requires only the ability to read Go.
 
-## **Virtual Machine Comparison**
+## **3.2 Virtual Machine Comparison**
 
 | Feature | EVM | WASM | MoveVM | **GnoVM** |
 |---------|-----|------|--------|-----------|
@@ -110,83 +110,85 @@ Auditing requires only the ability to read Go.
 
 # **4. Gno Language**
 
-// TODO:
-// - Language Specification
-// - ~99% Go compatible + Deterministic constraints + std package + Render convention
-// - Interrealm specification
+// TODO:  
+// - Language Specification  
+// - ~99% Go compatible + Deterministic constraints + std package + Render convention  
+// - Interrealm specification  
 
 # **5. GnoVM Architecture**
 
-// TODO:
-// - VM Architecture
+// TODO:   
+// - VM Architecture  
 // - AST-based interpreter (not bytecode) + Persistent Object Memory (automatic state) + Execution lifecycle
 
 ---
 
 # **6. Realm Execution Model**
 
-// TODO:
-// - Execution Semantics
+// TODO:   
+// - Execution Semantics  
 // - OS Analogy Table (Process=Realm, Kernel=GnoVM) + Package hierarchy (/p/, /r/, /e/) + Isolation Theorem
 
 ---
 
 # **7. State Commitment**
 
-// TODO:
-// - Data Integrity
-// - Merkle Tree structure + Amino encoding (deterministic serialization)
+// TODO:   
+// - Data Integrity   
+// - Merkle Tree structure + Amino encoding (deterministic serialization)    
 
 ---
 
 # **8. Economics**
 
-// TODO:
-// - Token & Incentive Design
-// - GNOT Token + Gas model + Storage Deposit (lock/unlock) + Fee distribution → Validators + Contributors
+// TODO:  
+// - Token & Incentive Design  
+// - GNOT Token + Gas model + Storage Deposit (lock/unlock) + Fee distribution → Validators + Contributors   
+// - ref: https://gist.github.com/jaekwon/4d1c81ee3b82a0fc29f67d50e7f8664c.  
 
 ---
 
 # **9. Proof of Contribution**
 
-// TODO:
-// - Governance Innovation
-// - PoS limitations (capital ≠ competence) → Contributio based + Tier structure + DAOs
-// - Maybe we should have another session for GovDAO? ref: https://gist.github.com/jaekwon/918ad325c4c8f7fb5d6e022e33cb7eb3
+// TODO:  
+// - Governance Innovation   
+// - PoS limitations (capital ≠ competence) → Contributio based + Tier structure + DAOs   
+// - Maybe we should have another session for GovDAO? ref: https://gist.github.com/jaekwon/918ad325c4c8f7fb5d6e022e33cb7eb3   
 
 ---
 
 # **10. Tendermint2**
 
-// TODO:
-// - Consensus Layer
-// - Implementation = Specification + ~15K LOC + BFT rounds (Propose→Prevote→Precommit) + PoC integration
-// - Differences from the original Tendermint?
+// TODO:   
+// - Consensus Layer   
+// - Implementation = Specification + ~15K LOC + BFT rounds (Propose→Prevote→Precommit) + PoC integration   
+// - Differences from the original Tendermint?  
 
 ---
 
 # **11. Safety and Liveness**
 
-// TODO:
-// - Security Proofs
-// - Assumptions: network eventually delivers, <1/3 malicious, crypto works
-// - Theorems: all nodes compute same result, contracts can't hack each other, no forks, chain never halts, no censorship
+// TODO:   
+// - Security Proofs   
+// - Assumptions: network eventually delivers, <1/3 malicious, crypto works   
+// - Theorems: all nodes compute same result, contracts can't hack each other, no forks, chain never halts, no censorship  
 
 ---
 
 # **12. The Logoverse**
 
-// TODO:
-// - Long-term Vision
-// - Permanence + Composability + Transparency + Core applications (boards, users, govdao, gnodev, etc.)
+// TODO:  
+// - Long-term Vision  
+// - Permanence + Composability + Transparency + Core applications (boards, users, govdao, gnodev, etc.)   
+// - ref: https://gno.land/r/gnoland/blog:p/gnoland-the-first-logoverse
 
 ---
 
 # **13. Conclusion**
 
-// TODO:
-// - Summary & Recap
-// - Go-compatible + AST transparency + auto-persistence + PoC governance + minimal consensus
+// TODO:   
+// - Summary & Recap   
+// - Go-compatible + AST transparency + auto-persistence + PoC governance + minimal consensus   
 
 ---
 
