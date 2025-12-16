@@ -10,6 +10,8 @@ This Constitution of gno.land, hereinafter “Constitution”, hereby establishe
 
 All subsequent governance proposals shall align with the provisions of this Constitution, and proponents of each proposal, along with all active governance voters, are required to ensure consistency between such proposals and this Constitution and cannot violate any explicit restriction.
 
+This Constitution is provisional. The initial T1 members shall draft and ratify a complete Constitution within three (3) months following the platform launch. Until such ratification, T1 members shall have the authority to make all necessary governance decisions by simple majority vote.
+
 Amendments are permitted to innovate and adapt this Constitution, but they must respect and adhere to the fundamental principles of this Constitution and are subject to specific procedures as described in Article 5: Amendments.
 
 ### Section 2: General Mission and Objectives
@@ -42,6 +44,8 @@ The govDAO operates on a three tier membership system based on expertise, contri
 - T3 is the introductory tier. Admission requires a permissionless invitation from a T1 or T2 member.
 
 #### Section 1.A: T1 Membership
+
+During the provisional period (first 3 months after launch), initial T1 members shall focus on drafting the complete Constitution. After ratification of the complete Constitution, the following shall apply:
 
 T1 shall target a minimum of 70 members after 7 years.
 
