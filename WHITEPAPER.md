@@ -90,18 +90,20 @@ This whitepaper presents:
 
 # 2. System Model
 
-// TODO:
-// - Formal Foundations
-// - 4 Core Definitions: Realm tuple, Persistent Object Memory graph,
-//   Deterministic Execution, Cross-Realm Call semantics
+TODO:
+
+- Formal Foundations
+- 4 Core Definitions: Realm tuple, Persistent Object Memory graph,
+  Deterministic Execution, Cross-Realm Call semantics
 
 # 3. Comparison with Existing Platforms
 
-// TODO:
-// - Why Gno Wins
-// - Bytecode problem + VM Comparison Table (EVM/WASM/MoveVM vs GnoVM)
-// - Solidity vs Gno code examples, e.g., State management
-// - Add more
+TODO:
+
+- Why Gno Wins
+- Bytecode problem + VM Comparison Table (EVM/WASM/MoveVM vs GnoVM)
+- Solidity vs Gno code examples, e.g., State management
+- Add more
 
 ## 3.1 The Bytecode Problem
 
@@ -138,27 +140,30 @@ Auditing requires only the ability to read Go.
 
 # 4. Gno Language
 
-// TODO:
-// - Language Specification
-// - ~99% Go compatible + Deterministic constraints + std package
-// - Render convention
-// - Interrealm specification
+TODO:
+
+- Language Specification
+- ~99% Go compatible + Deterministic constraints + std package
+- Render convention
+- Interrealm specification
 
 # 5. GnoVM Architecture
 
-// TODO:
-// - VM Architecture
-// - AST-based interpreter (not bytecode)
-// - Persistent Object Memory (automatic state)
-// - Execution lifecycle
+TODO:
+
+- VM Architecture
+- AST-based interpreter (not bytecode)
+- Persistent Object Memory (automatic state)
+- Execution lifecycle
 
 # 6. Realm Execution Model
 
-// TODO:
-// - Execution Semantics
-// - OS Analogy Table (Process=Realm, Kernel=GnoVM)
-// - Package hierarchy (/p/, /r/, /e/)
-// - Isolation Theorem
+TODO:
+
+- Execution Semantics
+- OS Analogy Table (Process=Realm, Kernel=GnoVM)
+- Package hierarchy (/p/, /r/, /e/)
+- Isolation Theorem
 
 # 7. State Commitment
 
@@ -187,68 +192,75 @@ encoding, no boilerplate.
 This works for any Go type: structs, slices, maps, pointers. The entire object
 graph rooted at package-level variables is tracked and persisted.
 
-// TODO:
-// - Merkle Tree structure details
-// - Amino encoding (deterministic serialization)
-// - Gas costs for state changes
+TODO:
+
+- Merkle Tree structure details
+- Amino encoding (deterministic serialization)
+- Gas costs for state changes
 
 # 8. Economics
 
-// TODO:
-// - Token & Incentive Design
-// - GNOT Token + Gas model
-// - Storage Deposit (lock/unlock)
-// - Fee distribution: Validators + Contributors
-// - ref: https://gist.github.com/jaekwon/4d1c81ee3b82a0fc29f67d50e7f8664c
+TODO:
+
+- Token & Incentive Design
+- GNOT Token + Gas model
+- Storage Deposit (lock/unlock)
+- Fee distribution: Validators + Contributors
+- ref: https://gist.github.com/jaekwon/4d1c81ee3b82a0fc29f67d50e7f8664c
 
 # 9. Proof of Contribution
 
-// TODO:
-// - Governance Innovation
-// - PoS limitations (capital != competence)
-// - Contribution based + Tier structure + DAOs
-// - Maybe separate section for GovDAO?
-// - ref: https://gist.github.com/jaekwon/918ad325c4c8f7fb5d6e022e33cb7eb3
+TODO:
+
+- Governance Innovation
+- PoS limitations (capital != competence)
+- Contribution based + Tier structure + DAOs
+- Maybe separate section for GovDAO?
+- ref: https://gist.github.com/jaekwon/918ad325c4c8f7fb5d6e022e33cb7eb3
 
 # 10. Tendermint2
 
-// TODO:
-// - Consensus Layer
-// - Implementation = Specification + ~15K LOC
-// - BFT rounds (Propose -> Prevote -> Precommit)
-// - PoC integration
-// - Differences from the original Tendermint?
+TODO:
+
+- Consensus Layer
+- Implementation = Specification + ~15K LOC
+- BFT rounds (Propose -> Prevote -> Precommit)
+- PoC integration
+- Differences from the original Tendermint?
 
 # 11. Safety and Liveness
 
-// TODO:
-// - Security Proofs
-// - Assumptions: network eventually delivers, <1/3 malicious, crypto works
-// - Theorems: all nodes compute same result, contracts can't hack each other,
-//   no forks, chain never halts, no censorship
+TODO:
+
+- Security Proofs
+- Assumptions: network eventually delivers, <1/3 malicious, crypto works
+- Theorems: all nodes compute same result, contracts can't hack each other,
+  no forks, chain never halts, no censorship
 
 # 12. The Logoverse
 
-// TODO:
-// - Long-term Vision
-// - Permanence + Composability + Transparency
-// - Core applications (boards, users, govdao, gnodev, etc.)
-// - ref: https://gno.land/r/gnoland/blog:p/gnoland-the-first-logoverse
+TODO:
+
+- Long-term Vision
+- Permanence + Composability + Transparency
+- Core applications (boards, users, govdao, gnodev, etc.)
+- ref: https://gno.land/r/gnoland/blog:p/gnoland-the-first-logoverse
 
 # 13. Conclusion
 
-// TODO:
-// - Summary & Recap
-// - Go-compatible + AST transparency + auto-persistence
-// - PoC governance + minimal consensus
+TODO:
+
+- Summary & Recap
+- Go-compatible + AST transparency + auto-persistence
+- PoC governance + minimal consensus
 
 # Appendix
 
-// TODO: Add
+TODO: Add
 
 # References
 
-// TODO: Add more
+TODO: Add more
 
 [1] S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system," 2008.
 
