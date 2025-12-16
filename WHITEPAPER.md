@@ -58,10 +58,10 @@ developer base.
 
 ## 1.1 Background
 
-Bitcoin demonstrated decentralized value transfer without intermediaries [1].
-Ethereum extended this to general computation through smart contracts [2].
+Bitcoin demonstrated decentralized value transfer without intermediaries[^1].
+Ethereum extended this to general computation through smart contracts[^2].
 Tendermint and Cosmos established practical Byzantine fault-tolerant consensus
-and inter-blockchain communication [3, 4].
+and inter-blockchain communication[^3][^4].
 
 Despite these advances, structural limitations persist:
 
@@ -262,13 +262,10 @@ TODO: Add
 
 TODO: Add more
 
-[1] S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system," 2008.
-
-[2] V. Buterin, "Ethereum: A next-generation smart contract and decentralized
-    application platform," 2014.
-
-[3] J. Kwon, "Tendermint: Consensus without mining," 2014.
-
-[4] J. Kwon, E. Buchman, "Cosmos: A network of distributed ledgers," 2016.
+[^1]: S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system," 2008.
+[^2]: V. Buterin, "Ethereum: A next-generation smart contract and decentralized
+      application platform," 2014.
+[^3]: J. Kwon, "Tendermint: Consensus without mining," 2014.
+[^4]: J. Kwon, E. Buchman, "Cosmos: A network of distributed ledgers," 2016.
 
 ## Changelog
