@@ -162,10 +162,35 @@ Auditing requires only the ability to read Go.
 
 # 7. State Commitment
 
+In most smart contract platforms, developers manually serialize and deserialize
+state using explicit storage slots or key-value mappings. Gno eliminates this
+friction: global variables are automatically persistent.
+
+```go
+package counter
+
+var total int
+
+func Add(n int) {
+    total += n
+}
+
+func Get() int {
+    return total
+}
+```
+
+When `Add(5)` is called, `total` changes from 0 to 5. GnoVM detects this change
+and commits it to the Merkle tree automatically. No `storage.set()`, no manual
+encoding, no boilerplate.
+
+This works for any Go type: structs, slices, maps, pointers. The entire object
+graph rooted at package-level variables is tracked and persisted.
+
 // TODO:
-// - Data Integrity
-// - Merkle Tree structure
+// - Merkle Tree structure details
 // - Amino encoding (deterministic serialization)
+// - Gas costs for state changes
 
 # 8. Economics
 
