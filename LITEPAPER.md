@@ -1,10 +1,39 @@
 # Gno: A Deterministic Multi-Realm Computing Platform
 
 ## Abstract
-TODO: Concise summary of what Gno is, the problem it addresses, and its core differentiators.
+
+Gno.land is a platform for timeless code that stores truth in plain sight.
+
+Gno, the deterministic, Go-compatible programming environment powering the
+Gno.land platform, provides a model where smart contracts exist as
+human-readable source code: permanently on-chain, directly auditable, and
+inherently forkable. Gno.land then builds on this foundation by introducing
+governance driven not by token accumulation but by demonstrable contribution.
+Together, they form the basis of the Logoverse: a persistent, composable,
+censorship-resistant substrate for decentralized knowledge and coordination.
+
+Problem: Current smart contract platforms exhibit: (1) bytecode opacity
+preventing practical auditability, (2) manual state serialization causing
+developer friction, (3) stake-weighted governance conflating capital with
+competence, and (4) domain-specific languages fragmenting the ecosystem.
+
+Solution: We introduce Gno, a deterministic Go-compatible language executed
+by GnoVM, an AST-based interpreter providing automatic object persistence,
+capability-based realm isolation, and source-level transparency.
 
 ## Introduction
-TODO: Motivation for Gno, limitations of existing blockchain platforms, and high-level goals.
+
+Bitcoin demonstrated decentralized value transfer without intermediaries.
+Ethereum extended this to general computation through smart contracts.
+Tendermint and Cosmos established practical Byzantine fault-tolerant consensus
+and inter-blockchain communication.
+
+Despite these advances, structural limitations persist:
+
+- Opacity: Deployed contracts exist as bytecode, requiring specialized tools
+- Complexity: Developers must learn new languages and manage state manually
+- Plutocracy: Governance power correlates with token holdings
+- Fragmentation: Each ecosystem demands distinct languages and tooling
 
 ## Gno
 
@@ -41,6 +70,10 @@ TODO: Describe how Gno interacts with external chains and systems, including IBC
 TODO: Describe trust boundaries and security considerations for cross-chain interactions.
 
 ## Applications and Vision
+
+Gno.land forms the basis of the Logoverse: a persistent, composable,
+censorship-resistant substrate for decentralized knowledge and coordination.
+
 TODO: Describe the long-term vision for Gno, including the Logoverse and core applications.  
 TODO: Explain how the design choices enable safe, composable, long-lived applications.
 
