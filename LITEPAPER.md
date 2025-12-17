@@ -31,6 +31,21 @@ TODO: why Go is the chosen abstraction.
 TODO: Document security implications of language-level constraints.
 
 ### The Gno Virtual Machine
+
+Unlike traditional VMs that execute bytecode, GnoVM interprets the Abstract
+Syntax Tree (AST) directly. Source code is parsed and stored on-chain as AST
+nodes, making the execution model transparent and auditable.
+
+When code is deployed:
+
+1. Source is parsed into an AST
+2. AST is type-checked and validated
+3. AST nodes are stored on-chain (not compiled bytecode)
+4. Execution walks the AST directly
+
+This approach eliminates the compilation step that obscures intent in other
+platforms. What you read is what executes.
+
 TODO: Explain how GnoVM executes Gno code, its interpreter model, and how it differs from bytecode-based VMs.  
 TODO: Describe how determinism, isolation, and safety are enforced by the VM.
 
