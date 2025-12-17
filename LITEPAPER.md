@@ -54,6 +54,26 @@ TODO: Describe how transactions are executed, lifecycle of execution, and runtim
 TODO: Clarify how failures, reverts, and safety boundaries are handled.
 
 ### State and Persistence
+
+Global variables are automatically persistent:
+
+```go
+package counter
+
+var total int
+
+func Add(n int) {
+    total += n
+}
+```
+
+When `Add(5)` is called, `total` changes from 0 to 5. GnoVM detects this change
+and commits it to the Merkle tree automatically. No `storage.set()`, no manual
+encoding, no boilerplate.
+
+This works for any Go type: structs, slices, maps, pointers. The entire object
+graph rooted at package-level variables is tracked and persisted.
+
 TODO: Explain how state is represented, how persistent objects are tracked automatically, and how changes are committed.  
 TODO: Describe persistence guarantees and security implications of automatic state tracking.
 
