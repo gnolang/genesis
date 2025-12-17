@@ -70,6 +70,10 @@ TODO: Describe how Gno interacts with external chains and systems, including IBC
 TODO: Describe trust boundaries and security considerations for cross-chain interactions.
 
 ## Applications and Vision
+
+Gno.land forms the basis of the Logoverse: a persistent, composable,
+censorship-resistant substrate for decentralized knowledge and coordination.
+
 TODO: Describe the long-term vision for Gno, including the Logoverse and core applications.  
 TODO: Explain how the design choices enable safe, composable, long-lived applications.
 
