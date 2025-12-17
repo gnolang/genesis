@@ -105,25 +105,20 @@ TODO:
 - Solidity vs Gno code examples, e.g., State management
 - Add more
 
-## 3.1 The Bytecode Problem
-
-Ethereum stores compiled bytecode:
-
-```
-Deployed: 0x608060405234801561001057600080fd5b50...
-```
-
-Interpreting this requires decompilation or external source verification.
+## 3.1 Source Transparency
 
 Gno stores source code directly:
 
 ```go
-func Transfer(to std.Address, amount int64) {
-    caller := std.PreviousRealm().Address()
+package token
+
+var balances = map[address]int64
+
+func Transfer(cur realm, to address, amount int64) {
+    caller := runtime.PreviousRealm().Address()
     balances[caller] -= amount
     balances[to] += amount
 }
-```
 
 Auditing requires only the ability to read Go.
 
