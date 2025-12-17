@@ -9,7 +9,25 @@ TODO: Motivation for Gno, limitations of existing blockchain platforms, and high
 ## Gno
 
 ### The Gno Language
-TODO: Describe Gno as a Go-compatible language, supported features, determinism constraints, and why Go is the chosen abstraction.  
+
+Gno is approximately 99% compatible with Go 1.17. Developers write standard Go
+code with minimal modifications. The language enforces determinism through
+careful restrictions on non-deterministic operations.
+
+Determinism constraints:
+
+- `time.Now()` returns block time, not system time
+- No goroutines, channels, or concurrency primitives
+- No OS, network, or filesystem access
+- No reflection or unsafe operations
+- TODO: continue this list
+
+All standard Go types are supported: bool, int, uint, float32, float64, string,
+arrays, slices, maps, structs, pointers, and functions.
+
+TODO: Introduced keywords (address, etc).
+TODO: chain/* stdlibs.
+TODO: why Go is the chosen abstraction.  
 TODO: Document security implications of language-level constraints.
 
 ### The Gno Virtual Machine
