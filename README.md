@@ -1,11 +1,5 @@
-# gno.land genesis
+# gnolang/genesis — not used
 
-**Disclaimer:** This repository is a work in progress (WIP) and subject to ongoing updates.  
+This repository was created to host the genesis, constitution, and governance rules for gno.land, but was ultimately not used. All related content lives in the main monorepo instead:
 
-This repo defines the genesis of **gno.land**, including its Constitution and governance rules for GovDAO, the entity managing gno.land. It aims to establish the foundation for a sustainable, decentralized platform.
-
-## Contributing
-
-We invite you to participate by opening issues or submitting pull requests for discussions and improvements. Your feedback is essential to shaping the future of gno.land.
-
-Our current focus is on drafting our [Constitution](https://github.com/gnolang/genesis/blob/main/CONSTITUTION.md), which is an important part of our upcoming Beta Launch in our [road to mainnet](https://gno.land/r/gnoland/blog:p/road-to-mainnet).
+**→ https://github.com/gnolang/gno**
